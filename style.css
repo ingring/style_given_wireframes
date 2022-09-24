@@ -1,0 +1,218 @@
+@font-face {
+    font-family: Lato;
+    src:url(assets/fonts/Lato-Regular.ttf)
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(assets/fonts/Montserrat-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #88B4B2 100%);
+    font-family: Lato, sans-serif;
+    font-size: 1.2rem;
+}
+
+h1, h2, h3 {
+    font-family: Montserrat, sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    max-width: 70ch;
+    line-height: 1.5;
+}
+
+header {
+    height: 55vh;
+    background-image: url(assets/img/studentsbg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    position: relative;
+}
+
+header > div, main, footer {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+header > div {
+    background-color: #c5192d;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    position: absolute; 
+    bottom: -50px;
+    left: 0; 
+    right: 0; 
+}
+
+header > div p {
+    padding: 2rem 2rem 0;
+    display: inline-block;
+}
+
+main {
+    box-shadow: 0 0 1px 0 darkgrey;
+    background-color: whitesmoke;
+    margin-top: 6rem;
+}
+
+#intro-container {
+    background-color: #c5192d;
+    padding: 2rem;
+}
+
+#intro-container li {
+    list-style: none;
+    line-height: 1.5;
+}
+
+#intro-container li::before {
+    width: 1rem;
+    margin: 1rem 1rem 0;
+    padding: 1rem;
+}
+
+#intro-container li:nth-child(1)::before {
+    content: "\1F64C";
+}
+
+#intro-container li:nth-child(2)::before {
+    content: "\1F3EB";
+}
+
+#intro-container li:nth-child(3)::before {
+    content: "\1F4DA";
+}
+
+article div {
+    margin: 2rem 2rem;
+}
+
+img {
+    width: 90%;
+    margin: 0 5% 2rem;
+}
+
+article:nth-child(2) {
+    border-bottom: 0.1px solid darkgrey;
+}
+
+article:nth-child(3) img {
+    margin: 2rem 2rem 0;
+}
+
+footer {
+    background-color: #c5192d;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: white;
+}
+
+footer p {
+    padding: 2rem;
+    display: inline-block;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    h2 {
+        padding-top: 2rem;
+    }
+
+    p {
+        padding-bottom: 2rem;
+    }
+
+    header {
+        height: 65vh;
+    }
+
+    header > div, main, footer {
+        width: 85vw;
+    }
+
+    /* Removing the margins so the elements gets inside the article box, then adding padding inside the article instead 
+    to handle the elements as a whole. Using padding instead of margins to get the border all the way to the edge. */
+    article div {
+        margin: 0;
+    }
+
+    article {
+        padding: 2rem;
+        display: inline-block;
+        border-bottom: 0.1px solid darkgrey;
+    }
+
+    article:last-child {
+        border: none;
+    }
+
+    #intro-container {
+        background: linear-gradient(90deg, #c5192d 50%, whitesmoke 50%);
+    }
+
+    article div:nth-child(1) {
+        float: left;
+        max-width: 45%;
+    }
+
+    article div:nth-child(2) {
+        float: right;
+        max-width: 45%;
+    }
+
+    img {
+        float: left;
+        max-width: 45%;
+        margin: 0;
+    }
+
+    article div ~ img {
+        float: right;
+        max-width: 45%;
+    }
+    
+    article:nth-child(3) img {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    body {
+        font-size: 24px;
+    }
+
+    header > div, main, footer {
+        max-width: 70vw;
+    }
+}
