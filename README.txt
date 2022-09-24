@@ -1,1 +1,0 @@
-https://folk.ntnu.no/ingring/lifestyle-import/
