@@ -8,11 +8,11 @@ Follow the already created mock-ups and implement the newsletter using CSS. I al
 I was not allowed to modify it. I was also not allowed to use flexbox and grid layout. 
 
 ## Mockups
-Phone:
+Phone:\
 ![alt mockups phone](mockups/phone-lt600-notes.png)
-tablet:
+tablet:\
 ![alt mockups tablet](mockups/tablet-gt600lt960.png)
-desktop:
+desktop:\
 ![alt mockups desktop](mockups/desktop-gt960.png)
 
 ## visit the website
