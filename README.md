@@ -3,16 +3,16 @@
 ## About the project
 This page was created as part of the subject IDG1292 Web coding, a subject on the department of design on NTNU Gjøvik. 
 
-## About the task
+## The task
 Follow the already created mock-ups and implement the newsletter using CSS. I also recieved a document with the final HTML structure, and 
 I was not allowed to modify it. I was also not allowed to use flexbox and grid layout. 
 
 ## Mockups
-Phone:\
+### Phone
 ![alt mockups phone](mockups/phone-lt600-notes.png)\
-tablet:\
+### tablet
 ![alt mockups tablet](mockups/tablet-gt600lt960.png)\
-desktop:\
+### desktop
 ![alt mockups desktop](mockups/desktop-gt960.png)
 
 ## visit the website
