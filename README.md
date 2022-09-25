@@ -15,7 +15,7 @@ I was not allowed to modify it. I was also not allowed to use flexbox and grid l
 ### Desktop
 ![alt mockups desktop](mockups/desktop-gt960.png)
 
-## visit the website
+## Visit the website
 It is possible to visit this website both on github pages and folk.ntnu.no
 github pages: https://ingring.github.io/style_given_wireframes/index.html
 folk.ntnu.no: https://folk.ntnu.no/ingring/lifestyle-import/
