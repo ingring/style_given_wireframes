@@ -9,9 +9,9 @@ I was not allowed to modify it. I was also not allowed to use flexbox and grid l
 
 ## Mockups
 ### Phone
-![alt mockups phone](mockups/phone-lt600-notes.png)\
+![alt mockups phone](mockups/phone-lt600-notes.png)
 ### Tablet
-![alt mockups tablet](mockups/tablet-gt600lt960.png)\
+![alt mockups tablet](mockups/tablet-gt600lt960.png)
 ### Desktop
 ![alt mockups desktop](mockups/desktop-gt960.png)
 
